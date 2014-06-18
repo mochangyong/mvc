@@ -29,7 +29,7 @@ public class MtoryFrontController extends HttpServlet{
 		
 		Properties prop = new Properties();
 		FileInputStream fis = 
-				new FileInputStream("C:\\java_workspace002/mvc/build/classes/mvc.properties");
+				new FileInputStream("C:\\git_4/gitRepositories1/mvc/build/classes/mvc.properties");
 		
 		prop.load(fis);
 		fis.close();

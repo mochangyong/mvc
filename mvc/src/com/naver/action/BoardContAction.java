@@ -27,7 +27,7 @@ public class BoardContAction implements Action {
 		BoardBean bcont = new BoardBean();
 		
 				bcont=bd.getBoardCont(board_no);
-		String board_cont = bcont.getBoard_cont().replace("/n", "<br/>");
+		String board_cont = bcont.getBoard_cont().replace("\n", "<br/>");
 				
 		request.setAttribute("bcont", bcont);
 		
